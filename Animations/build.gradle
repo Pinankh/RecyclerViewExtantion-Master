@@ -1,0 +1,15 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 33
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 33
+    }
+}
+
+dependencies {
+    // Check WithLayerItemAnimator when updating.
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+}
